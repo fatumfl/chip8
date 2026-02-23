@@ -99,4 +99,19 @@ git push
 
 24. Перейдите в Settings репозитория, группа Code and Automation, секция Pages.
 
-25. 
+25. Задайте следующие параметры:
+	- Источник: Deploy from a branch
+	- Branch: main	/docs
+Нажмите Save
+
+26. Перейдите по ссылке или нажмите Visit site вверху страницы. Если все сделано верно, то должна открыться страница TiddlyWiki.
+
+27. В GitHub перейдите в настройки профиля Settings -> Developer Settings -> Personal Access Token -> Fine-Grained Tokens. Нажмите Generate new token. Задайте параметры:
+	- Token name: TiddlyWiki
+	- Description: TiddlyWiki Save Feature Integration
+	- Expiration: No expiration
+	- Repository access: Only select repositories - chip8
+	- Permissions: Add permission -> Contents -> Read and write
+	
+28. Скопируйте токен
+
