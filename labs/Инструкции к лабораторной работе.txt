@@ -25,7 +25,6 @@ git status
 
 chip8/
 	docs/
-	report/
 	roms/
 	source/
 	README.md
@@ -55,7 +54,7 @@ git commit -m "Comment"
 12. Просмотрите историю коммитов:
 git log
 
-13. Скачайте свежую версию TiddlyWiki и поместите в папку report/
+13. Скачайте свежую версию TiddlyWiki и поместите в папку docs/ под именем index.html
 
 14. Зафиксируйте изменения
 
@@ -85,6 +84,7 @@ git remote add origin <Ссылка на репозиторий>
 git remote -v
 
 21. Отправка локальных данных в удаленный репозиторий GitHub:
+git branch -M main
 git push -u origin main
 
 22. В дальнейшем, для синхронизации локального и удаленного репозитория, используйте порядок команд:
@@ -97,3 +97,6 @@ git push
 
 # Настройка и публикация TiddlyWiki через систему GitHub Pages
 
+24. Перейдите в Settings репозитория, группа Code and Automation, секция Pages.
+
+25. 
