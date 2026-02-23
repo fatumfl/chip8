@@ -113,5 +113,31 @@ git push
 	- Repository access: Only select repositories - chip8
 	- Permissions: Add permission -> Contents -> Read and write
 	
-28. Скопируйте токен
+28. Скопируйте токен. Открыть его второй раз - нельзя. Придется пересоздать, если не скопировали.
+
+29. Откройте страницу TiddlyWiki в GitHub Pages. Перейдите в Control Panel -> Saving -> GitHub Saver. Задайте следующие параметры:
+	- Username: Логин
+	- Password: Скопированный токен
+	- Target repository: логин/chip8
+	- Target branch: main
+	- Path to target file: /docs
+	- Filename: index.html
+
+30. Нажмите Сохранить (красную кнопку) в TiddlyWiki. Если все сделали верно, система сообщит об успешном сохранении.
+
+31. Для синхронизации локального репозитория с удаленным после изменений в TiddlyWiki вводите команды:
+git add .
+git commit -m "Comment"
+git pull
+git push
+
+32. В дальнейшем вносите изменения в TiddlyWiki только через GitHub Pages
+
+33. Настройте систему TiddlyWiki:
+	- Title: Программирование на языке C
+	- Subtitle: Лабораторный практикум
+	- Username: Имя Фамилия (гр. 5117)
+	
+
+# Разработка программы Hello, World! на языке C
 
