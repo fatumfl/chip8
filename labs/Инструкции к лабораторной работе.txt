@@ -194,11 +194,11 @@ jobs:
 
     - name: Compile C code
       # The 'gcc' command is available in the MSYS2 shell
-      run: gcc source/main.c -o hello.exe
+      run: gcc source/main.c -o chip8.exe
 
     - name: Run the compiled program
       run: |
-        ./hello.exe
+        ./chip8.exe
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
@@ -273,3 +273,4 @@ CHIP8_KEY_COUNT		16
 56. Перейдите в Settings репозитория. В блоке Access выберите Collaborators.
 
 57. Нажмите Add people, найдите и добавьте пользователя fatumfl.
+
